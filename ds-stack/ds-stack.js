@@ -1,5 +1,6 @@
 var Stack = function() {
-	this.storage = [];
+	var obj = Object.create(Stack.prototype);
+	obj.storage = [];
 };
 
 Stack.prototype.add = function (value){
