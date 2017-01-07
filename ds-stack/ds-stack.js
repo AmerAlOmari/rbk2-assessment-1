@@ -11,4 +11,4 @@ Stack.prototype.remove = function (){
 	this.storage.pop();
 }
 
-// [1]
+// [2]
