@@ -1,3 +1,4 @@
+//[2]
 var makeHashTable = function() {
   //Do not change the max!
   var max = 4;
