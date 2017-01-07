@@ -15,10 +15,10 @@ Array.prototype.remove = function (){
 };
 
 Array.prototype.first = function (){
-	this.storage[0];
+	return this.storage[0];
 };
 
 Array.prototype.last = function (){
-	this.storage[this.storage.length - 1];
+	return this.storage[this.storage.length - 1];
 };
 // [2]
